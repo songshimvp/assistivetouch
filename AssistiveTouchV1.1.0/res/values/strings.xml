@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">虚拟按键助手</string>
+    <string name="service_name">assistive touch service</string>
+    <string name="title_activity_main">虚拟按键助手</string>
+	<string name="start_service">启用按键助手服务</string>
+	<string name="stop_service">停止按键助手服务</string>
+	<string name="service_setting">虚拟按键设置</string>
+	<string name="enable_boot_start">开机启动</string>
+	<string name="enable_auto_update">自动更新</string>
+	<string name="find_update_title">发现新版本的 虚拟按键助手</string>
+	<string name="find_update_message">点击下载</string>
+	<string name="author_info">作者:李翊</string>
+	<string name="email_info">Email:lendylongli@gmail.com</string>
+	<string name="version_code">版本:%1$s</string>
+	<string name="no_root_tip">很抱歉该应用需要root权限才能正常使用</string>
+	
+	<string name="key_home_name">主界面</string>
+	<string name="key_back_name">返回</string>
+	<string name="key_recent_name">最近应用</string>
+	<string name="key_menu_name">菜单</string>
+	<string name="key_search_name">搜索</string>
+	<string name="key_hide_name">隐藏</string>
+	
+	<string name="user_defined">自定义设置</string>
+	<string name="setting_touch_dot_size">触摸圆点大小</string>
+	<string name="setting_touch_dot_transparency">触摸圆点透明度</string>
+	<string name="setting_touch_dot_preview">预览效果</string>
+	<string name="setting_input_touch_dot_size">输入自定义的大小</string>
+	<string name="save_preferences">保存</string>
+	<string name="dialog_setting_title">温馨提示</string>
+    <string name="dialog_setting_message">是否放弃当前编辑?</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_cancel">取消</string>
+    
+    <string name="menu_check_update">检查更新</string>
+    <string name="menu_checking_update">正在检测新版本，请稍候</string>
+    <string name="menu_no_found_update">没有检测到新版本</string>
+</resources>
