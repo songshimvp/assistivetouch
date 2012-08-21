@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#fff1f1f1</color>
+    <color name="qc_normal_blue">#e02a96bc</color>
+    <color name="qc_selected_blue">#f01a5b73</color>
+    <color name="trans_black">#aa000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="color_diviver_line_1">#ff67a8db</color>
+    <color name="setting_blue">#ff60a8dd</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="touch_dot_size_name">
+        <item>自适应</item>
+        <item>256px</item>
+        <item>128px</item>
+        <item>64px</item>
+        <item>32px</item>
+        <item>自定义</item>
+    </string-array>
+    <integer-array name="touch_dot_size_value">
+        <item>256</item>
+        <item>128</item>
+        <item>64</item>
+        <item>32</item>
+    </integer-array>
+</resources>
