@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="sysbar_style">
+        <item name="android:background">@drawable/selector_sysbar_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="bottom_bar_btn">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/head_bar_button</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:text">底部按钮</item>
+        <item name="android:lines">1</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="setting_title_divider">
+        <item name="android:background">@color/color_diviver_line_1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0px</item>
+    </style>
+    <style name="setting_text_view">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="setting_text_view.column_title" parent="@style/setting_text_view">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/setting_blue</item>
+    </style>
+</resources>

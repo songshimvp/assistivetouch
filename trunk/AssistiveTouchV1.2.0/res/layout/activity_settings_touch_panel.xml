@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:leon="http://schemas.android.com/apk/res/com.leon.assistivetouch.main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_alignParentTop="true"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20.0dip"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/setting_text_view.column_title"
+                android:layout_marginTop="15.0dip"
+                android:text="@string/setting_touch_panel_title" />
+
+            <com.leon.assistivetouch.main.ui.TouchPanelView
+                android:id="@+id/setting_touch_main_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dip"
+                android:gravity="center_horizontal" />
+
+            <com.leon.assistivetouch.main.ui.LayoutCheckBoxView
+                android:id="@+id/setting_touch_panel_enable_virbrator_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17.0dip"
+                leon:text="@string/setting_touch_panel_enable_virbrator"
+                leon:headerDividersEnabled="true"
+                leon:footerDividersEnabled="true" />
+            
+			<com.leon.assistivetouch.main.ui.LayoutCheckBoxView
+                android:id="@+id/setting_touch_panel_item_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                leon:text="@string/setting_touch_panel_enable_item_text"
+                leon:headerDividersEnabled="false"
+                leon:footerDividersEnabled="true" />
+			
+			<com.leon.assistivetouch.main.ui.LayoutCheckBoxView
+                android:id="@+id/setting_touch_panel_click_event_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                leon:text="@string/setting_touch_panel_click_event"
+                leon:headerDividersEnabled="false"
+                leon:footerDividersEnabled="true" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black" >
+
+        <Button
+            android:id="@+id/settings_save_btn"
+            style="@style/bottom_bar_btn"
+            android:text="@string/save_preferences"
+            android:textSize="18sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>

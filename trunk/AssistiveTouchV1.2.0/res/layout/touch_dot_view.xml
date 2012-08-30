@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/top_view_icon"
+        android:layout_width="@dimen/size_icon_app"
+        android:layout_height="@dimen/size_icon_app"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher" />
+</LinearLayout>
