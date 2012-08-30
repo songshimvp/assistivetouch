@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="size_icon_app">76.0px</dimen>
+    <dimen name="size_dialog">390.0px</dimen>
+</resources>
