@@ -11,8 +11,8 @@
 	<string name="enable_auto_update">自动更新</string>
 	<string name="find_update_title">发现新版本的 虚拟按键助手</string>
 	<string name="find_update_message">点击下载</string>
-	<string name="author_info">Copyright/© VirtualGroup</string>
-	<string name="email_info">Email:lendylongli@uestc.cn</string>
+	<string name="author_info">作者:李翊</string>
+	<string name="email_info">Email:lendylongli@gmail.com</string>
 	<string name="version_code">版本:%1$s</string>
 	<string name="no_root_tip">很抱歉该应用需要root权限才能正常使用</string>
 	
