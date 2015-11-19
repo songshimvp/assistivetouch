@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/show_setting_table_item_common_use_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_setting_table_item_common_use" />
+
+        <Button
+            android:id="@+id/show_setting_table_item_screen_lock_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_setting_table_item_screen_lock" />
+        
+        <Button
+            android:id="@+id/show_setting_table_item_notification_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_setting_table_item_notification" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/show_setting_table_item_phone_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_setting_table_item_phone" />
+
+        <Button
+            android:id="@+id/show_setting_table_item_page_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_setting_table_item_page" />
+        
+        <Button
+            android:id="@+id/show_setting_table_item_camera_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_setting_table_item_camera" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/show_setting_table_item_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_setting_table_item_back" />
+
+        <Button
+            android:id="@+id/show_setting_table_item_home_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_setting_table_item_home" />
+        
+        <Button
+            android:id="@+id/show_setting_table_item_exit_touch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_setting_table_item_exit_touch" />
+        
+    </LinearLayout>
+
+</LinearLayout>
